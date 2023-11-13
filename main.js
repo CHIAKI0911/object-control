@@ -308,14 +308,14 @@ animationScripts.push({
             // Raycaster でクリックした位置のオブジェクトを取得
             raycaster.setFromCamera(mouse, camera);
             const intersects = raycaster.intersectObjects([torus]);
-            const intersects2 = raycaster.intersectObjects([box])
+            const intersects2 = raycaster.intersectObjects([torus2])
 
             // クリックした場所に torus があればリンク先に飛ぶ
             if (intersects.length > 0) {
-                window.location.href = "https://www2.panasonic.biz/jp/dsr/index/zaitaku/";
+                window.location.href = "https://acrobat.adobe.com/id/urn:aaid:sc:AP:063d967c-7b3b-4c4d-bc0c-bb2eb299b896";
             }
             if (intersects2.length > 0) {
-                window.location.href = "https://www.google.com/";
+                window.location.href = "https://acrobat.adobe.com/id/urn:aaid:sc:AP:37555371-836f-4673-8ccf-e4c88fb6a4b4";
             }
 }
         
